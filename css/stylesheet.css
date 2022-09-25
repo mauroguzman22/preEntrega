@@ -110,6 +110,9 @@ header{
     object-fit: contain;
 }
 
+.imgAnimation:hover img {-webkit-transform:scale(1.3);transform:scale(1.3);}
+.imgAnimation {overflow:hidden;}
+
 
 .imgSize{
     display: block;

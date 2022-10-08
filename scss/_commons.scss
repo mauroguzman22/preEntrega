@@ -1,0 +1,32 @@
+*{
+    font-family: $textPrimary;
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+    color: white;
+   }
+
+body{
+    background-attachment: fixed;
+    background-color: rgba(245, 245, 245, 0.855);
+    
+}
+
+html{
+    font-size: 100%;
+    color: rgb(255, 255, 255);
+}
+
+// variables
+
+.text_Center{
+    text-align: center;
+    font-size: $textMd;
+}
+
+.logoBorder{
+    width: 110px;
+    height: 110px;
+    border-radius: 15px;
+}
+

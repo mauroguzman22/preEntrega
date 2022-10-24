@@ -1,7 +1,7 @@
 
 @include media (desktop){
     .boxForm2{
-        background-color:  rgb(29, 27, 27);
+        background-color: rgba(245, 245, 245, 0.855);
         opacity: 1;
         margin-bottom: 30px;
         margin-top: 30px;
@@ -12,7 +12,6 @@
         width: 100%;
         height: auto;
         text-align:left;
-        border: 1px solid  rgb(51, 51, 51);
     }
 
     .boxFormiframe{
@@ -21,29 +20,27 @@
         margin-bottom: 30px;
         margin-top: 30px;
         display: flex;
-        flex-direction: column;
+        flex-direction:column;
         margin-left: 25%;
         padding: 50px 50px;
         width: 100%;
-        height: auto;
+        height: 100%;
         text-align:left;
-        border: 1px solid  rgb(51, 51, 51);
     }
 
     .gridContainer{
         display: grid;
         grid-template-areas: 
-        "li li img"
+        "h3 h3 img"
         "p p img"
         ;
-        background-color:rgb(29, 27, 27);
+        background-color: rgba(245, 245, 245, 0.855);
         margin-top: 25px;
-        text-align: center;
         width: 100%;
         text-align: left;
 
-                Li{
-                grid-area: li;
+                h3{
+                grid-area: h3;
                 font-size: $textLg;
                 }
 
@@ -57,7 +54,7 @@
    }
 
     .boxForm{
-        background-color:  rgb(29, 27, 27);
+        background-color: rgba(245, 245, 245, 0.855);
         opacity: 1;
         margin-bottom: 30px;
         margin-top: 30px;
@@ -69,18 +66,8 @@
         height: auto;
         justify-content: space-between;
         text-align:left;
-        border: 1px solid  rgb(51, 51, 51);
     }
 
-    section div h1{
-        text-align: center;
-        font-display: flex;
-    }
-
-    section div h2{
-        text-align: center;
-        font-display: flex;
-    } 
 
     .tittleBox{
         display: inline-block;
@@ -97,9 +84,10 @@
 
 
     .bg-grey{
-        background-color:rgb(29, 27, 27);
+        background-color: rgba(245, 245, 245, 0.855);
 
     }
+
 
     .imgSize{
         display: block;
@@ -123,17 +111,17 @@
         display: grid;
         grid-template-areas: 
         "img img img"
-        "li li li"
+        "h3 h3 h3"
         "p p p";
         
-        background-color:rgb(29, 27, 27);
+        background-color: rgba(245, 245, 245, 0.855);
         margin-top: 25px;
         text-align: center;
         width: 100%;
         text-align: left;
     
-            Li{
-                grid-area: li;
+            h3{
+                grid-area: h3;
                 }
             P{
                 grid-area: p;
@@ -144,7 +132,7 @@
      }    
         
         .boxForm{
-            background-color:  rgb(29, 27, 27);
+            background-color: rgba(245, 245, 245, 0.855);
             opacity: 1;
             margin-bottom: 30px;
             margin-top: 30px;
@@ -156,11 +144,10 @@
             height: auto;
             justify-content: space-between;
             text-align:left;
-            border: 1px solid  rgb(51, 51, 51);
         }
         
         .boxForm2{
-            background-color:  rgb(29, 27, 27);
+            background-color: rgba(245, 245, 245, 0.855);
             opacity: 1;
             margin-bottom: 30px;
             margin-top: 30px;
@@ -171,11 +158,10 @@
             width: 100%;
             height: auto;
             text-align:left;
-            border: 1px solid  rgb(51, 51, 51);
         }
    
         .boxFormiframe{
-            background-color:  rgb(29, 27, 27);
+            background-color: rgba(245, 245, 245, 0.855);
             opacity: 1;
             margin-bottom: 30px;
             margin-top: 30px;
@@ -185,11 +171,10 @@
             width: 100%;
             height: auto;
             text-align:center;
-            border: 1px solid  rgb(51, 51, 51);
         }
 
         .bg-grey{
-            background-color:rgb(29, 27, 27);
+            background-color: rgba(245, 245, 245, 0.855);
     
         }    
         .img{

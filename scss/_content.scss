@@ -1,7 +1,7 @@
 
 @include media (desktop){
     .boxForm2{
-        background-color: rgba(245, 245, 245, 0.855);
+        background-color: rgba(255, 255, 255, 0.855);
         opacity: 1;
         margin-bottom: 30px;
         margin-top: 30px;
@@ -12,6 +12,10 @@
         width: 100%;
         height: auto;
         text-align:left;
+    }
+
+    .logoColor{
+        color: $fontColor;
     }
 
     .boxFormiframe{
@@ -34,7 +38,7 @@
         "h3 h3 img"
         "p p img"
         ;
-        background-color: rgba(245, 245, 245, 0.855);
+        background-color: rgba(255, 255, 255, 0.855);
         margin-top: 25px;
         width: 100%;
         text-align: left;
@@ -53,8 +57,44 @@
                 }
    }
 
+   .gridContainerProductosEmpanadas{
+    display: grid;
+    grid-template-areas: 
+    "Box1 Box2 Box3"
+    "Box4 Box5 Box6"
+    ;    }
+
+
+   .gridContainerProductosPizza{
+    display: grid;
+    grid-template-areas: 
+    "Box1 Box2"
+    "Box3 Box4"
+    "Box5 Box6"
+    ;
+    
+}
+.Box1{
+    grid-area: Box1;
+   }
+   .Box2{
+    grid-area: Box2;
+   }
+   .Box3{
+    grid-area: Box3;
+   }
+   .Box4{
+    grid-area: Box4;
+   }
+   .Box5{
+    grid-area: Box5;
+   }
+   .Box6{
+    grid-area: Box6;
+   }
+
     .boxForm{
-        background-color: rgba(245, 245, 245, 0.855);
+        background-color: rgba(255, 255, 255, 0.855);
         opacity: 1;
         margin-bottom: 30px;
         margin-top: 30px;
@@ -84,7 +124,7 @@
 
 
     .bg-grey{
-        background-color: rgba(245, 245, 245, 0.855);
+        background-color: rgba(255, 255, 255, 0.855);
 
     }
 
@@ -114,7 +154,7 @@
         "h3 h3 h3"
         "p p p";
         
-        background-color: rgba(245, 245, 245, 0.855);
+        background-color: rgba(255, 255, 255, 0.855);
         margin-top: 25px;
         text-align: center;
         width: 100%;
@@ -130,9 +170,52 @@
                 grid-area: img;
                 }
      }    
+     .gridContainerProductosEmpanadas{
+        display: grid;
+        grid-template-areas: 
+        "Box1"
+        "Box2"
+        "Box3"
+        "Box4"
+        "Box5"
+        "Box6"
+        ;    }
+    
+    
+       .gridContainerProductosPizza{
+        display: grid;
+        grid-template-areas: 
+        "Box1"
+        "Box2"
+        "Box3"
+        "Box4"
+        "Box5"
+        "Box6"
+        ;
+        
+    }
+    .Box1{
+        grid-area: Box1;
+       }
+       .Box2{
+        grid-area: Box2;
+       }
+       .Box3{
+        grid-area: Box3;
+       }
+       .Box4{
+        grid-area: Box4;
+       }
+       .Box5{
+        grid-area: Box5;
+       }
+       .Box6{
+        grid-area: Box6;
+       }
+    
         
         .boxForm{
-            background-color: rgba(245, 245, 245, 0.855);
+            background-color: rgba(255, 255, 255, 0.855);
             opacity: 1;
             margin-bottom: 30px;
             margin-top: 30px;
@@ -147,7 +230,7 @@
         }
         
         .boxForm2{
-            background-color: rgba(245, 245, 245, 0.855);
+            background-color: rgba(255, 255, 255, 0.855);
             opacity: 1;
             margin-bottom: 30px;
             margin-top: 30px;
@@ -161,7 +244,7 @@
         }
    
         .boxFormiframe{
-            background-color: rgba(245, 245, 245, 0.855);
+            background-color: rgba(255, 255, 255, 0.855);
             opacity: 1;
             margin-bottom: 30px;
             margin-top: 30px;
@@ -174,7 +257,7 @@
         }
 
         .bg-grey{
-            background-color: rgba(245, 245, 245, 0.855);
+            background-color: rgba(255, 255, 255, 0.855);
     
         }    
         .img{
@@ -193,7 +276,11 @@
             
             }
         
-
+            .logoColor{
+                color: $fontColor;
+            }
+        
+        
    }    
 
 
